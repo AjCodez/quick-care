@@ -75,22 +75,16 @@
   /* Content */
 
   .content{
-    /* border: 2px solid black; */
-    margin-right: 935px;
-    margin-top: 146px;
+    width:40%;
     text-align: center;
-    margin-left: 40px;
-
+    float:left;
   }
   .content h1{
-    margin-top: 100px;
     text-align: left;
     font-size: 51px;
-    margin-left : 10px;
   } 
   .btn{
       padding : 6px 20px;
-      /* border : 2px solid  #29d9d5; */
       background-color: rgb(129, 230, 224);
       color:black;
       margin:17px;
@@ -99,22 +93,11 @@
       cursor: pointer;
   }
   .Picture{
-    margin-top: -413px;
-    margin-left: 672px;
-    /* border: 2px solid black; */
-    /* padding: 251px; */
-    margin-right: 75px;
-  }
-
-  .Picture img{
-    /* height: 100vh; */
-    /* object-fit: contain; */
-
-    object-fit: fill;
-    height: 538px;
-    width: 770px;
+    float:right;
+    width:40%;
 
   }
+
   img {
     max-width: 100%;
     max-height: 100%;
@@ -124,4 +107,5 @@
     width:200px;
     position:relative;
     bottom:30px;
+    float:left;
 }
