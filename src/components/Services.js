@@ -6,8 +6,8 @@ const Services=({
 }) => {
     return (
       <div class="serv">
-        <div class="container px-4 text-center">
-            <div class="row gx-5">
+        <div class="container_px-4_text-center">
+            <div class="col gx-5">
                     <div class="p-3 border bg-light">
                     <div class="card-body">
                     <img src={require("../resources/quick-care-logo.png")} class="card-img-top" alt="" />
