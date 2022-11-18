@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Services=({
-    service,
-    desc
+const Services = ({
+  service,
+  desc
 }) => {
     return (
       <div class="serv">
@@ -15,10 +15,11 @@ const Services=({
                     <p class="card-text">{desc}</p>
                     </div>
             </div>
-    </div>
-</div>
+          </div>
+        </div>
       </div>
-    )
+    </div>
+  )
 
 }
 

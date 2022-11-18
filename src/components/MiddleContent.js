@@ -6,6 +6,7 @@ import Services from './Services'
 function MiddleContent() {
   return (
     <div class="OPTIONS">
+    <div>
       <BookingComp />
 
       <div class="options">
@@ -25,6 +26,7 @@ function MiddleContent() {
           <Services service={"FaceList Surgery"} desc={"dsjvbajdgbsjadgjasdbvjsdgvjjhgfjadbsvjhbdsvjhadsvjbdjbvjdfbhbadjvajhdfdgbsjadgjasdbvjsdgv"} />
         </div>
       </div>
+
     </div>
   )
 }
