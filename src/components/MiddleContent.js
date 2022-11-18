@@ -28,6 +28,7 @@ function MiddleContent() {
       </div>
 
     </div>
+    </div>
   )
 }
 
