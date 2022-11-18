@@ -94,8 +94,9 @@
   }
   .Picture{
     float:right;
-    width:45%;
-
+    width:40%;
+    /* display:block; */
+    margin:20px;
   }
 
   img {
@@ -112,4 +113,17 @@
 
 .middleContent{
   margin: 50px 30px;
+  display:block;
+}
+
+.optionComp{
+  display:inline-block;
+  width:20%;
+  margin:5px;
+}
+
+.card{
+  display:inline-block;
+  width:100%;
+  margin:10px;
 }
