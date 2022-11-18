@@ -76,8 +76,10 @@
 
   .content{
     width:50%;
+    height:80%;
     text-align: center;
     float:left;
+    display:block;
   }
   .content h1{
     text-align: left;
@@ -95,7 +97,7 @@
   .Picture{
     float:right;
     width:40%;
-    /* display:block; */
+    display:block;
     margin:20px;
   }
 
@@ -111,11 +113,6 @@
     float:left;
 }
 
-.middleContent{
-  margin: 50px 30px;
-  display:block;
-}
-
 .optionComp{
   display:inline-block;
   width:20%;
@@ -126,4 +123,24 @@
   display:inline-block;
   width:100%;
   margin:10px;
+}
+
+.container{
+  display:inline-block;
+  margin:10px;
+  width:20%;
+}
+
+.serv{
+  display:inline-block;
+}
+
+.card-body img{
+  display:block;
+  float:left;
+  width:200px;
+}
+
+.card-title{
+  display:block;
 }
