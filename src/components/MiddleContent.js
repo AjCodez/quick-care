@@ -16,8 +16,8 @@ function MiddleContent() {
 
         </div>
 
-        <div className='container text-center'>
-          <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+        <div class="serv">
+      <div class="container_px-4_text-center">
             <Services service={"General Health Care"} desc={"dsjvbajdsjvabhjdjhbdfjjhgfjadbsvjhbdsvjhadsvjbdjbvjdfbhbadjvajhdfdgbsjadgjasdbvjsdgv"} />
             <Services service={"Dental Service"} desc={"dsjvbajdgbsjadgjasdbvjsdgvjjhgfjadbsvjhbdsvjhadsvjbdjbvjdfbhbadjvajhdfdgbsjadgjasdbvjsdgv"} />
             <Services service={"Orthopedics"} desc={"dsjvbajdgbsjadgjasdbvjsdgvjjhgfjadbsvjhbdsvjhadsvjbdjbvjdfbhbadjvajhdfdgbsjadgjasdbvjsdgv"} />

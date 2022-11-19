@@ -5,10 +5,8 @@ const Services = ({
   desc
 }) => {
   return (
-    <div class="serv">
-      <div class="container_px-4_text-center">
-        <div class="col gx-5">
-          <div class="p-3 border bg-light">
+        <div class="col gx-4">
+          <div class="p-2 border bg-light">
             <div class="card-body">
               <img src={require("../resources/quick-care-logo.png")} class="card-img-top" alt="" />
               <h5 class="card-title">{service}</h5>
@@ -16,8 +14,6 @@ const Services = ({
             </div>
           </div>
         </div>
-      </div>
-    </div>
   )
 
 }
