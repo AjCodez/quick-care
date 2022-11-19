@@ -4,6 +4,7 @@ const Services = ({
   service,
   desc
 }) => {
+
   return (
         <div class="col gx-4">
           <div class="p-2 border bg-light">
