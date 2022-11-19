@@ -8,17 +8,26 @@ import Doctor from './Doctor'
 function MiddleContent() {
   return (
     <div class="midSec">
+
         <BookingComp />
 
         <div class="options">
-          <Options name={"patient and visitors guide ➡️"} img={"../resources/cont-img.jpeg"}/>
-          <Options name={"Find the best doctor ➡️"} img={"../resources/cont-img.jpeg"}/>
-          <Options name={"Ask your questions ➡️"} img ={"../resources/cont-img.jpeg"}/>
+          <Options name={"patient and visitors guide ➡️"} img={"../resources/cont-img.jpeg"} />
+          <Options name={"Find the best doctor ➡️"} img={"../resources/cont-img.jpeg"} />
+          <Options name={"Ask your. questions ➡️"} img={"../resources/cont-img.jpeg"} />
 
         </div>
 
-        <BookingComp />
-
+        <div class="serv">
+      <div class="container_px-4_text-center">
+            <Services service={"General Health Care"} desc={"dsjvbajdsjvabhjdjhbdfjjhgfjadbsvjhbdsvjhadsvjbdjbvjdfbhbadjvajhdfdgbsjadgjasdbvjsdgv"} />
+            <Services service={"Dental Service"} desc={"dsjvbajdgbsjadgjasdbvjsdgvjjhgfjadbsvjhbdsvjhadsvjbdjbvjdfbhbadjvajhdfdgbsjadgjasdbvjsdgv"} />
+            <Services service={"Orthopedics"} desc={"dsjvbajdgbsjadgjasdbvjsdgvjjhgfjadbsvjhbdsvjhadsvjbdjbvjdfbhbadjvajhdfdgbsjadgjasdbvjsdgv"} />
+            <Services service={"Rhynoplasty"} desc={"dsjvbajdgbsjadgjasdbvjsdgvjjhgfjadbsvjhbdsvjhadsvjbdjbvjdfbhbadjvajhdfdgbsjadgjasdbvjsdgv"} />
+            <Services service={"Hair Transplant"} desc={"dsjvbajdgbsjadgjasdbvjsdgvjjhgfjadbsvjhbdsvjhadsvjbdjbvjdfbhbadjvajhdfdgbsjadgjasdbvjsdgv"} />
+            <Services service={"FaceList Surgery"} desc={"dsjvbajdgbsjadgjasdbvjsdgvjjhgfjadbsvjhbdsvjhadsvjbdjbvjdfbhbadjvajhdfdgbsjadgjasdbvjsdgv"} />
+          </div>
+        </div>
         <div class="container px-4 text-center">
             <div class="row gx-5">
                     <div class="p-3 border bg-light">
@@ -47,7 +56,7 @@ function MiddleContent() {
         
       </div>
 
-        
+
   )
 }
 
