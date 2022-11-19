@@ -1,7 +1,6 @@
 .header {
     overflow: hidden;
     background-color: #ffffff;
-    padding: 20px 10px;
 
   }
   
@@ -11,7 +10,6 @@
     display:  flex;
     color: black;
     text-align: center;
-    padding: 12px;
     text-decoration: none;
     font-size: 28px;
     line-height: 25px;
@@ -126,7 +124,7 @@
 }
 
 .container{
-  display:inline-block;
+  display:block;
   margin:10px;
   width:20%;
 }
@@ -143,4 +141,43 @@
 
 .card-title{
   display:block;
+}
+
+.footer{
+  background-color: rgb(129, 230, 224);
+  display:block;
+  padding:250px 100px;
+}
+
+.rev{
+  display:inline-block;
+  margin:20px;
+  width:20%;
+}
+
+.doc{
+  display:inline-block;
+  margin:20px;
+  width:20%;
+  font-size:3rem;
+}
+
+.heading{
+  margin:8% 0%;
+  width:30%;
+  font-size:3rem;
+}
+
+.midSec{
+  margin:0 5%;
+}
+
+.quick-care-footer, .company, .support, .followus{
+  display:inline-block;
+  width:30%;
+  float:left;
+}
+
+.rightF{
+  float:right;
 }
